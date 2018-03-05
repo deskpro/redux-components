@@ -1,4 +1,4 @@
-import * as validators from 'redux-form/validators';
+import * as validators from '../../src/validators';
 
 test('validators.required', () => {
   expect(validators.required('test')).toBe(undefined);
