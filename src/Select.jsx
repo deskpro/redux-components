@@ -24,7 +24,7 @@ SelectField.propTypes = {
   /**
    * List of dropdown values.
    */
-  options: Forms.Select.propTypes.options, // eslint-disable-line
+  options: SelectComponent.propTypes.options, // eslint-disable-line
   /**
    * Passed to the field by redux-form.
    */

@@ -12,7 +12,7 @@ import {
   Textarea,
   TagSet,
   FieldGroup
-} from 'redux-form/index';
+} from '../../../src/index';
 
 // https://github.com/facebook/react/issues/7740#issuecomment-247335106
 const createNodeMock = () => ({
