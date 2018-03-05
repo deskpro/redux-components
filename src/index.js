@@ -1,8 +1,6 @@
 import * as validators from './validators';
 
-export {
-  validators
-};
+export { validators };
 
 export { default as Checkbox } from './Checkbox';
 export { default as Datepicker } from './Datepicker';
