@@ -4,3 +4,6 @@ jest.mock('react-dom', () => ({
   render:      () => {}
 }));
 
+global.getComputedStyle = () => ({
+  width: 0
+});
