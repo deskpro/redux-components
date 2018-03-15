@@ -1,6 +1,7 @@
+import { SubmissionError } from 'redux-form';
 import * as validators from './validators';
 
-export { validators };
+export { SubmissionError, validators };
 
 export { default as Checkbox } from './Checkbox';
 export { default as Datepicker } from './Datepicker';
