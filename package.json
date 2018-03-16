@@ -1,6 +1,6 @@
 {
   "name": "@deskpro/redux-components",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Redux bindings for Deskpro react-components",
   "main": "dist/index.js",
   "scripts": {
