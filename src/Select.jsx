@@ -39,7 +39,12 @@ const Select = ({ parse, ...props }) => {
   // is an object with { label: string, value: string }. Parse the value to
   // return the value part of the object unless the parse prop has already
   // been provided.
-  const valueParse = parse || (value => value.value);
+  const valueParse = parse || (value => {
+    if (!value) {
+      return null;
+    }
+    return value.value;
+  });
 
   return (
     <Field
