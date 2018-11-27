@@ -8,8 +8,8 @@ exports[`>>> redux-form --- Snapshot +++capturing Snapshot of Checkbox 1`] = `
   <div
     className="dp-form-group"
   >
-
-
+    
+    
     <div
       className="dp-input--checkbox"
       style={Object {}}
@@ -35,7 +35,7 @@ exports[`>>> redux-form --- Snapshot +++capturing Snapshot of Checkbox 1`] = `
         className="dp-input__label"
         htmlFor="id2"
       >
-
+        
       </label>
     </div>
   </div>
@@ -50,8 +50,8 @@ exports[`>>> redux-form --- Snapshot +++capturing Snapshot of Datepicker 1`] = `
   <div
     className="dp-form-group"
   >
-
-
+    
+    
     <div
       className="dp-datepicker"
       style={Object {}}
@@ -84,7 +84,7 @@ exports[`>>> redux-form --- Snapshot +++capturing Snapshot of Datepicker 1`] = `
           onDragStart={[Function]}
           onDrop={[Function]}
           onFocus={[Function]}
-          placeholder="DD/MM/YYYY"
+          placeholder="M/D/YYYY"
           value=""
         />
       </div>
@@ -107,14 +107,14 @@ exports[`>>> redux-form --- Snapshot +++capturing Snapshot of FieldGroup 1`] = `
       htmlFor=""
     >
       test
-
+      
     </label>
-
+    
     <div
       className="dp-form-group"
     >
-
-
+      
+      
       <div
         className="dp-input"
       >
@@ -142,8 +142,8 @@ exports[`>>> redux-form --- Snapshot +++capturing Snapshot of Input 1`] = `
   <div
     className="dp-form-group"
   >
-
-
+    
+    
     <div
       className="dp-input"
     >
@@ -170,8 +170,8 @@ exports[`>>> redux-form --- Snapshot +++capturing Snapshot of Radio 1`] = `
   <div
     className="dp-form-group"
   >
-
-
+    
+    
     <div
       className="dp-input--radio"
       style={Object {}}
@@ -197,8 +197,8 @@ exports[`>>> redux-form --- Snapshot +++capturing Snapshot of Radio 1`] = `
           className="dp-input__label"
           htmlFor="id4"
         >
-
-
+          
+          
         </label>
       </label>
     </div>
@@ -214,8 +214,8 @@ exports[`>>> redux-form --- Snapshot +++capturing Snapshot of Select 1`] = `
   <div
     className="dp-form-group"
   >
-
-
+    
+    
     <div
       className="dp-select"
     >
@@ -286,7 +286,7 @@ exports[`>>> redux-form --- Snapshot +++capturing Snapshot of Select 1`] = `
                   }
                 }
               >
-
+                
               </div>
             </div>
           </div>
@@ -314,8 +314,8 @@ exports[`>>> redux-form --- Snapshot +++capturing Snapshot of TagSet 1`] = `
   <div
     className="dp-form-group"
   >
-
-
+    
+    
     <div
       className="dp-tag-set"
     >
@@ -413,8 +413,8 @@ exports[`>>> redux-form --- Snapshot +++capturing Snapshot of Textarea 1`] = `
     autosize={false}
     className="dp-form-group"
   >
-
-
+    
+    
     <div
       className="dp-textarea"
     >
