@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/deskpro/redux-components#readme",
   "devDependencies": {
-    "@deskpro/react-components": "^1.3.18",
+    "@deskpro/react-components": "^1.4.1",
     "@storybook/addon-info": "^3.3.14",
     "@storybook/addon-knobs": "^3.3.14",
     "@storybook/addon-notes": "^3.3.14",
