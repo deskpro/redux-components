@@ -1,6 +1,6 @@
 {
   "name": "@deskpro/redux-components",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Redux bindings for Deskpro react-components",
   "main": "dist/index.js",
   "scripts": {
@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/deskpro/redux-components#readme",
   "devDependencies": {
-    "@deskpro/react-components": "^1.4.1",
+    "@deskpro/react-components": "^1.4.2",
     "@storybook/addon-info": "^3.3.14",
     "@storybook/addon-knobs": "^3.3.14",
     "@storybook/addon-notes": "^3.3.14",
