@@ -19,9 +19,16 @@ TextareaField.propTypes = {
   /**
    * Passed to the field by redux-form.
    */
-  input: PropTypes.shape(fieldPropTypes.input).isRequired
+  input:    PropTypes.shape(fieldPropTypes.input).isRequired,
+  /**
+   * Set if you want to have autosizing textarea
+   */
+  autosize: PropTypes.bool
 };
 
+TextareaField.defaultProps = {
+  autosize: false
+};
 /**
  * Connects the field to the Redux store.
  */
