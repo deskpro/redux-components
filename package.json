@@ -9,7 +9,7 @@
     "prod": "npm run clean && webpack --config webpack.prod.config.js --progress --profile --colors --display-error-details",
     "lint": "eslint . --cache --cache-location=.cache/eslint --ext .js,.jsx",
     "lint:fix": "npm run lint -- --fix",
-    "test": "node --icu-data-dir=node_modules/full-icu scripts/test.js --env=jsdom",
+    "test": "node scripts/test.js --env=jsdom",
     "travis-test": "npm run test -- --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
     "storybook:dev": "start-storybook -p 9002 -c .storybook",
     "precommit": "lint-staged",
@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/deskpro/redux-components#readme",
   "devDependencies": {
-    "@deskpro/react-components": "^1.4.2",
+    "@deskpro/react-components": "1.4.2",
     "@storybook/addon-info": "^3.3.14",
     "@storybook/addon-knobs": "^3.3.14",
     "@storybook/addon-notes": "^3.3.14",

@@ -8,8 +8,8 @@ exports[`>>> redux-form --- Snapshot +++capturing Snapshot of Checkbox 1`] = `
   <div
     className="dp-form-group"
   >
-    
-    
+
+
     <div
       className="dp-input--checkbox"
       style={Object {}}
@@ -35,7 +35,7 @@ exports[`>>> redux-form --- Snapshot +++capturing Snapshot of Checkbox 1`] = `
         className="dp-input__label"
         htmlFor="id2"
       >
-        
+
       </label>
     </div>
   </div>
@@ -50,8 +50,8 @@ exports[`>>> redux-form --- Snapshot +++capturing Snapshot of Datepicker 1`] = `
   <div
     className="dp-form-group"
   >
-    
-    
+
+
     <div
       className="dp-datepicker"
       style={Object {}}
@@ -59,10 +59,23 @@ exports[`>>> redux-form --- Snapshot +++capturing Snapshot of Datepicker 1`] = `
       <div
         className="dp-input dp-input--with-icon--right"
       >
-        <i
-          className="fa fa-calendar dp-icon dp-icon--s"
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-calendar fa-w-14 fa-sm dp-icon"
+          data-icon="calendar"
+          data-prefix="fas"
           onClick={[Function]}
-        />
+          role="img"
+          style={Object {}}
+          viewBox="0 0 448 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M12 192h424c6.6 0 12 5.4 12 12v260c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V204c0-6.6 5.4-12 12-12zm436-44v-36c0-26.5-21.5-48-48-48h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v36c0 6.6 5.4 12 12 12h424c6.6 0 12-5.4 12-12z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
         <input
           id="id3"
           name="date1"
@@ -94,14 +107,14 @@ exports[`>>> redux-form --- Snapshot +++capturing Snapshot of FieldGroup 1`] = `
       htmlFor=""
     >
       test
-      
+
     </label>
-    
+
     <div
       className="dp-form-group"
     >
-      
-      
+
+
       <div
         className="dp-input"
       >
@@ -129,8 +142,8 @@ exports[`>>> redux-form --- Snapshot +++capturing Snapshot of Input 1`] = `
   <div
     className="dp-form-group"
   >
-    
-    
+
+
     <div
       className="dp-input"
     >
@@ -157,8 +170,8 @@ exports[`>>> redux-form --- Snapshot +++capturing Snapshot of Radio 1`] = `
   <div
     className="dp-form-group"
   >
-    
-    
+
+
     <div
       className="dp-input--radio"
       style={Object {}}
@@ -184,8 +197,8 @@ exports[`>>> redux-form --- Snapshot +++capturing Snapshot of Radio 1`] = `
           className="dp-input__label"
           htmlFor="id4"
         >
-          
-          
+
+
         </label>
       </label>
     </div>
@@ -201,8 +214,8 @@ exports[`>>> redux-form --- Snapshot +++capturing Snapshot of Select 1`] = `
   <div
     className="dp-form-group"
   >
-    
-    
+
+
     <div
       className="dp-select"
     >
@@ -219,7 +232,7 @@ exports[`>>> redux-form --- Snapshot +++capturing Snapshot of Select 1`] = `
           onTouchStart={[Function]}
           style={undefined}
         >
-          <span
+          <div
             className="Select-multi-value-wrapper"
             id="react-select-2--value"
           >
@@ -273,10 +286,10 @@ exports[`>>> redux-form --- Snapshot +++capturing Snapshot of Select 1`] = `
                   }
                 }
               >
-                
+
               </div>
             </div>
-          </span>
+          </div>
           <span
             className="Select-arrow-zone"
             onMouseDown={[Function]}
@@ -301,8 +314,8 @@ exports[`>>> redux-form --- Snapshot +++capturing Snapshot of TagSet 1`] = `
   <div
     className="dp-form-group"
   >
-    
-    
+
+
     <div
       className="dp-tag-set"
     >
@@ -313,9 +326,22 @@ exports[`>>> redux-form --- Snapshot +++capturing Snapshot of TagSet 1`] = `
         <span
           onClick={[Function]}
         >
-          <i
-            className="fa fa-close dp-icon dp-icon--s dp-tag__close"
-          />
+          <svg
+            aria-hidden="true"
+            className="svg-inline--fa fa-times fa-w-11 fa-sm dp-icon dp-tag__close"
+            data-icon="times"
+            data-prefix="fas"
+            role="img"
+            style={Object {}}
+            viewBox="0 0 352 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"
+              fill="currentColor"
+              style={Object {}}
+            />
+          </svg>
         </span>
       </span>
       <span
@@ -325,9 +351,22 @@ exports[`>>> redux-form --- Snapshot +++capturing Snapshot of TagSet 1`] = `
         <span
           onClick={[Function]}
         >
-          <i
-            className="fa fa-close dp-icon dp-icon--s dp-tag__close"
-          />
+          <svg
+            aria-hidden="true"
+            className="svg-inline--fa fa-times fa-w-11 fa-sm dp-icon dp-tag__close"
+            data-icon="times"
+            data-prefix="fas"
+            role="img"
+            style={Object {}}
+            viewBox="0 0 352 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"
+              fill="currentColor"
+              style={Object {}}
+            />
+          </svg>
         </span>
       </span>
       <div
@@ -341,9 +380,22 @@ exports[`>>> redux-form --- Snapshot +++capturing Snapshot of TagSet 1`] = `
           disabled={false}
           onClick={[Function]}
         >
-          <i
-            className="fa fa-plus dp-icon dp-icon--s"
-          />
+          <svg
+            aria-hidden="true"
+            className="svg-inline--fa fa-plus fa-w-14 fa-sm dp-icon"
+            data-icon="plus"
+            data-prefix="fas"
+            role="img"
+            style={Object {}}
+            viewBox="0 0 448 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"
+              fill="currentColor"
+              style={Object {}}
+            />
+          </svg>
         </button>
         <div />
       </div>
@@ -358,20 +410,21 @@ exports[`>>> redux-form --- Snapshot +++capturing Snapshot of Textarea 1`] = `
   onSubmit={[Function]}
 >
   <div
+    autosize={false}
     className="dp-form-group"
   >
-    
-    
+
+
     <div
       className="dp-textarea"
-      onBlur={[Function]}
-      onDragStart={[Function]}
-      onDrop={[Function]}
-      onFocus={[Function]}
     >
       <textarea
         name="textarea1"
+        onBlur={[Function]}
         onChange={[Function]}
+        onDragStart={[Function]}
+        onDrop={[Function]}
+        onFocus={[Function]}
         value=""
       />
     </div>
