@@ -9,9 +9,9 @@ import FieldGroup from './FieldGroup';
  *
  * @see https://redux-form.com/7.0.4/docs/api/field.md/#2-a-stateless-function
  */
-export const TextareaField = ({ input, ...props }) => (
+export const TextareaField = ({ input, autosize, ...props }) => (
   <FieldGroup {...props}>
-    <TextareaComponent {...input}  />
+    <TextareaComponent {...input} autosize={autosize} />
   </FieldGroup>
 );
 
