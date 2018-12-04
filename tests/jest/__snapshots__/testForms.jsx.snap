@@ -410,7 +410,6 @@ exports[`>>> redux-form --- Snapshot +++capturing Snapshot of Textarea 1`] = `
   onSubmit={[Function]}
 >
   <div
-    autosize={false}
     className="dp-form-group"
   >
     
