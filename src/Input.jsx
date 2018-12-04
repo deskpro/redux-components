@@ -9,9 +9,9 @@ import FieldGroup from './FieldGroup';
  *
  * @see https://redux-form.com/7.0.4/docs/api/field.md/#2-a-stateless-function
  */
-export const InputField = ({ input, ...props }) => (
-  <FieldGroup {...props}>
-    <InputComponent {...input} />
+export const InputField = ({ input, meta, label, children, ...props }) => (
+  <FieldGroup meta={meta} label={label} children={children}>
+    <InputComponent {...props} {...input} />
   </FieldGroup>
 );
 

@@ -9,9 +9,16 @@ import FieldGroup from './FieldGroup';
  *
  * @see https://redux-form.com/7.0.4/docs/api/field.md/#2-a-stateless-function
  */
-export const RadioField = ({ input: { value, ...rest }, ...props }) => (
-  <FieldGroup {...props}>
-    <RadioComponent checked={!!value} {...rest} />
+export const RadioField = (
+  {
+    input: { value, ...rest },
+    meta,
+    label,
+    children,
+    ...props
+  }) => (
+  <FieldGroup meta={meta} label={label} children={children}>
+    <RadioComponent {...props} checked={!!value} {...rest} />
   </FieldGroup>
 );
 

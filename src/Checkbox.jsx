@@ -9,9 +9,16 @@ import FieldGroup from './FieldGroup';
  *
  * @see https://redux-form.com/7.0.4/docs/api/field.md/#2-a-stateless-function
  */
-export const CheckboxField = ({ input: { value, ...rest }, ...props }) => (
-  <FieldGroup {...props}>
-    <CheckboxComponent checked={!!value} {...rest} />
+export const CheckboxField = (
+  {
+    input: { value, ...rest },
+    meta,
+    label,
+    children,
+    ...props
+  }) => (
+  <FieldGroup meta={meta} label={label} children={children}>
+    <CheckboxComponent {...props} checked={!!value} {...rest} />
   </FieldGroup>
 );
 

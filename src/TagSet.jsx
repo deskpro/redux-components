@@ -10,10 +10,10 @@ import FieldGroup from './FieldGroup';
  * @see https://redux-form.com/7.0.4/docs/api/field.md/#2-a-stateless-function
  */
 export const TagSetField = ({
-  options, tags, input, ...props
+  options, tags, input, meta, label, children, ...props
 }) => (
-  <FieldGroup {...props}>
-    <TagSetComponent {...input} options={options} tags={tags} />
+  <FieldGroup meta={meta} label={label} children={children}>
+    <TagSetComponent {...props} {...input} options={options} tags={tags} />
   </FieldGroup>
 );
 

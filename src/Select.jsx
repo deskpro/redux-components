@@ -9,9 +9,10 @@ import FieldGroup from './FieldGroup';
  *
  * @see https://redux-form.com/7.0.4/docs/api/field.md/#2-a-stateless-function
  */
-export const SelectField = ({ options, input, ...props }) => (
-  <FieldGroup {...props}>
+export const SelectField = ({ options, input, meta, label, children, ...props }) => (
+  <FieldGroup meta={meta} label={label} children={children}>
     <SelectComponent
+      {...props}
       {...input}
       options={options}
       onBlur={() => {

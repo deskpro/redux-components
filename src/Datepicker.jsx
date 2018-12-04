@@ -9,9 +9,9 @@ import FieldGroup from './FieldGroup';
  *
  * @see https://redux-form.com/7.0.4/docs/api/field.md/#2-a-stateless-function
  */
-export const DatepickerField = ({ input, ...props }) => (
-  <FieldGroup {...props}>
-    <DatepickerComponent {...input} onSelect={input.onChange} />
+export const DatepickerField = ({ input, meta, label, children, ...props }) => (
+  <FieldGroup meta={meta} label={label} children={children}>
+    <DatepickerComponent {...props} {...input} onSelect={input.onChange} />
   </FieldGroup>
 );
 
