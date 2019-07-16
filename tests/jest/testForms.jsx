@@ -59,7 +59,13 @@ describe('>>> redux-form --- Snapshot', () => {
   it('+++capturing Snapshot of Select', () => {
     const renderedValue = renderer.create(<Provider store={mockStore()}>
       <Form name="test">
-        <Select name="select1" />
+        <Select
+          name="select1"
+          options={[
+            { label: 'United Kingdom', value: 'uk' },
+            { label: 'United States', value: 'us' }
+          ]}
+        />
       </Form>
     </Provider>).toJSON();
     expect(renderedValue).toMatchSnapshot();
