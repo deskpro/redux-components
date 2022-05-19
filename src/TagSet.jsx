@@ -12,8 +12,8 @@ import FieldGroup from './FieldGroup';
 export const TagSetField = ({
   options, tags, input, meta, label, children, ...props
 }) => (
-  <FieldGroup meta={meta} label={label} children={children}>
-    <TagSetComponent {...props} {...input} options={options} tags={tags} />
+  <FieldGroup meta={meta} label={label}>
+    <TagSetComponent {...props} {...input} options={options} tags={input.value || []} />
   </FieldGroup>
 );
 
@@ -21,19 +21,25 @@ TagSetField.propTypes = {
   /**
    * List of dropdown values.
    */
-  options: PropTypes.oneOfType([PropTypes.array, PropTypes.object]),
+  options:  PropTypes.oneOfType([PropTypes.array, PropTypes.object]),
   /**
    * Current value
    */
-  tags:    PropTypes.array.isRequired,
+  tags:     PropTypes.array.isRequired,
   /**
    * Passed to the field by redux-form.
    */
-  input:   PropTypes.shape(fieldPropTypes.input).isRequired
+  input:    PropTypes.shape(fieldPropTypes.input).isRequired,
+  label:    PropTypes.string,
+  meta:     PropTypes.object,
+  children: PropTypes.node
 };
 
 TagSetField.defaultProps = {
-  options: []
+  options:  [],
+  label:    '',
+  meta:     {},
+  children: null
 };
 
 /**

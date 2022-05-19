@@ -5,11 +5,10 @@ import StoryForm from './form';
 
 storiesOf('Redux Form', module)
   .add('TagSet', () => (
-    <StoryForm>
+    <StoryForm initialValues={{labels: ['Agents', 'Docs']}}>
       <TagSet
         name="labels"
         label="Labels"
-        tags={['Agents', 'Docs']}
         options={['Agents', 'Docs', 'Feedback']}
       />
     </StoryForm>
