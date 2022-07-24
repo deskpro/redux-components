@@ -66,11 +66,16 @@ TagSet.propTypes = {
   /**
    * Called when the select value changes.
    */
-  onChange: PropTypes.func
+  onChange: PropTypes.func,
+  /**
+   * How a tag is named (e.g. label, or folder)
+   */
+  tagName:  PropTypes.string,
 };
 
 TagSet.defaultProps = {
-  onChange: () => {}
+  onChange: () => {},
+  tagName:  'label'
 };
 
 export default TagSet;
